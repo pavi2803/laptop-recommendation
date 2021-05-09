@@ -24,7 +24,7 @@ st.image('lapic.png',width=100)
          
 #fetching data         
          
-DATA_URL = ('C:/Users/Pavithra/Documents/DATASETS/laptops.csv')
+DATA_URL = ('https://github.com/pavi2803/laptop-recommendation/blob/main/laptops.csv')
 data = pd.read_csv(DATA_URL)
 data = data.drop('Unnamed: 0',axis=1)
 
